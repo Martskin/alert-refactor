@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import AlertEmotion from "../components/alertEmotion"
+import AlertBEM from "../components/alertBEM"
 
 const PageFive = () => (
   <Layout>
@@ -12,19 +13,19 @@ const PageFive = () => (
     <div className="grid">
       <div>
         <h2>CSS</h2>
-        <AlertEmotion
+        <AlertBEM
           heading="Code clarity"
           message="BEM is easy to read and easy to understand."
           type="success"
         />
 
-        <AlertEmotion
+        <AlertBEM
           heading="Framework agnostic"
           message="CSS can be distributed independently."
           type="success"
         />
 
-        <AlertEmotion
+        <AlertBEM
           heading="More code"
           message="Components with complex styles can become bloated."
           type="error"
