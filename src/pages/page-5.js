@@ -13,14 +13,14 @@ const PageFive = () => (
       <div>
         <h2>CSS</h2>
         <AlertEmotion
-          heading="Clarity"
+          heading="Code clarity"
           message="BEM is easy to read and easy to understand."
           type="success"
         />
 
         <AlertEmotion
           heading="Framework agnostic"
-          message="CSS is portable and can be distributed independently."
+          message="CSS can be distributed independently."
           type="success"
         />
 
@@ -33,20 +33,20 @@ const PageFive = () => (
       <div>
         <h2>CSS-in-JS</h2>
         <AlertEmotion
-          heading="Namespacing"
-          message="No risk of style collisions with random class names prefixes."
+          heading="Namespaced styles"
+          message="Class name prefixing eliminates risk of collisions."
           type="success"
         />
 
         <AlertEmotion
-          heading="Steamlined"
+          heading="Reduced file size"
           message="The compiled CSS only includes the necessary declartions."
           type="success"
         />
 
         <AlertEmotion
-          heading="Limiting"
-          message="Styling can‘t be easily ported to other codebases."
+          heading="Limited distribution"
+          message="Styling can’t be easily shared with other projects."
           type="error"
         />
       </div>

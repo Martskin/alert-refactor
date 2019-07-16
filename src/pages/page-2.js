@@ -51,10 +51,20 @@ const styleBem = `
     text-align: left;
   }
 
-  /* warning modifier */
+  /* modifiers */
+  .alert--error {
+    background: var(--tokens-alert-color-background-error);
+    color: var(--tokens-alert-color-text-error);
+  }
+  
   .alert--warning {
     background: var(--tokens-alert-color-background-warning);
     color: var(--tokens-alert-color-text-warning);
+  }
+  
+  .alert--success {
+    background: var(--tokens-alert-color-background-success);
+    color: var(--tokens-alert-color-text-success);
   }
 
   /* icon */
@@ -66,9 +76,17 @@ const styleBem = `
     width: 56px;
   }
 
-  /* icon warning modifier */
+  /* icon modifiers */
   .alert--warning .alert__icon::before {
     content: var(--tokens-alert-color-icon-warning);
+  }
+  
+  .alert--error .alert__icon::before {
+    content: var(--tokens-alert-color-icon-error);
+  }
+  
+  .alert--success .alert__icon::before {
+    content: var(--tokens-alert-color-icon-success);
   }
 `;
 
@@ -92,8 +110,8 @@ const PageTwo = () => (
         <div className="sticky">
           <h2>Alert variations</h2>
           <AlertBEM heading="Information alert heading!" message="This is an information message." />
-          <AlertBEM heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertBEM heading="Error alert heading!" message="This is an error message." type="error" />
+          <AlertBEM heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertBEM heading="Success alert heading!" message="This is a success message." type="success" />
         </div>
       </div>

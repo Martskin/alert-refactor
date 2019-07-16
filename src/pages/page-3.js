@@ -69,8 +69,8 @@ const PageThree = () => (
         <div className="sticky">
           <h2>Alert variations</h2>
           <AlertEmotion heading="Information alert heading!" message="This is an information message." />
-          <AlertEmotion heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertEmotion heading="Error alert heading!" message="This is an error message." type="error" />
+          <AlertEmotion heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertEmotion heading="Success alert heading!" message="This is a success message." type="success" />
         </div>
       </div>
