@@ -20,13 +20,13 @@ const PageFive = () => (
 
         <AlertEmotion
           heading="Framework agnostic"
-          message="CSS is more portable and can be distrubuted independently."
+          message="CSS is portable and can be distributed independently."
           type="success"
         />
 
         <AlertEmotion
           heading="More code"
-          message="Components with complex styles can become bloated with CSS."
+          message="Components with complex styles can become bloated."
           type="error"
         />
       </div>
@@ -34,7 +34,7 @@ const PageFive = () => (
         <h2>CSS-in-JS</h2>
         <AlertEmotion
           heading="Namespacing"
-          message="No fear of style collisions with random class names prefixes."
+          message="No risk of style collisions with random class names prefixes."
           type="success"
         />
 
@@ -46,7 +46,7 @@ const PageFive = () => (
 
         <AlertEmotion
           heading="Limiting"
-          message="What happens if you want to change the language used in your code base?"
+          message="Styling can‘t be easily ported to other codebases."
           type="error"
         />
       </div>

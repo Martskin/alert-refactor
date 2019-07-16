@@ -67,7 +67,7 @@ const PageThree = () => (
     <div className="grid">
       <div>
         <div className="sticky">
-          <h2>Alert Variations</h2>
+          <h2>Alert variations</h2>
           <AlertEmotion heading="Information alert heading!" message="This is an information message." />
           <AlertEmotion heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertEmotion heading="Error alert heading!" message="This is an error message." type="error" />
@@ -79,7 +79,7 @@ const PageThree = () => (
         <CodeSnippet code={JSON.stringify(tokens.alert, null, 2)} language="json" />
 
         <h2>Emotion styles</h2>
-        <CodeSnippet code={styleEmotion} language="css" />
+        <CodeSnippet code={styleEmotion} language="js" />
 
         <h2>JSX</h2>
         <CodeSnippet code={jsx} language="jsx" />

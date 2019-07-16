@@ -90,7 +90,7 @@ const PageTwo = () => (
     <div className="grid">
       <div>
         <div className="sticky">
-          <h2>Alert Variations</h2>
+          <h2>Alert variations</h2>
           <AlertBEM heading="Information alert heading!" message="This is an information message." />
           <AlertBEM heading="Warning alert heading!" message="This is a warning message." type="warning" />
           <AlertBEM heading="Error alert heading!" message="This is an error message." type="error" />

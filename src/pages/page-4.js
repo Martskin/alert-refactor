@@ -164,21 +164,12 @@ const PageFour = () => (
 
     <div className="grid">
       <div>
-
-      </div>
-      <div>
-        
-      </div>
-    </div>
-
-    <div className="grid">
-      <div>
         <h3>CSS style sheet</h3>
         <CodeSnippet code={styleBem} language="css" />
       </div>
       <div>
         <h3>Emotion styles</h3>
-        <CodeSnippet code={styleEmotion} language="css" />
+        <CodeSnippet code={styleEmotion} language="js" />
       </div>
     </div>
 
