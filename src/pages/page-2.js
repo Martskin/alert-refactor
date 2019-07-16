@@ -13,10 +13,10 @@ const cssVars = `
   --tokens-alert-color-text-error: #FFFFFF;
   --tokens-alert-color-text-warning: #000000;
   --tokens-alert-color-text-success: #FFFFFF;
-  --tokens-alert-color-icon-info: "ⓘ";
-  --tokens-alert-color-icon-error: "☠️";
-  --tokens-alert-color-icon-warning: "⚠";
-  --tokens-alert-color-icon-success: "🎉";
+  --tokens-alert-icon-info: "ⓘ";
+  --tokens-alert-icon-error: "☠️";
+  --tokens-alert-icon-warning: "⚠";
+  --tokens-alert-icon-success: "🎉";
 `;
 
 const markupBem = `
@@ -78,15 +78,15 @@ const styleBem = `
 
   /* icon modifiers */
   .alert--warning .alert__icon::before {
-    content: var(--tokens-alert-color-icon-warning);
+    content: var(--tokens-alert-icon-warning);
   }
   
   .alert--error .alert__icon::before {
-    content: var(--tokens-alert-color-icon-error);
+    content: var(--tokens-alert-icon-error);
   }
   
   .alert--success .alert__icon::before {
-    content: var(--tokens-alert-color-icon-success);
+    content: var(--tokens-alert-icon-success);
   }
 `;
 
