@@ -58,7 +58,7 @@ const jsx = `
   />
 `;
 
-const IndexPage = () => (
+const PageThree = () => (
   <Layout>
     <h1>
       CSS-in-JS with Emotion.js
@@ -96,4 +96,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default PageThree

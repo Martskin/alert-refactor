@@ -143,7 +143,7 @@ const jsx = `
   />
 `;
 
-const IndexPage = () => (
+const PageFour = () => (
   <Layout>
     <h1>
       Side-by-side comparison
@@ -195,7 +195,7 @@ const IndexPage = () => (
 
     <div className="grid">
       <div>
-        <h3>Conditional class name</h3>
+        <h3>Conditional modifier class name</h3>
         <CodeSnippet code="className={classnames('alert', `alert--${type}`)}" language="jsx" />
 
         <h3>Markup with BEM class names</h3>
@@ -209,9 +209,9 @@ const IndexPage = () => (
 
     <nav>
       <Link to="/page-3/">Back</Link>
-      <div />
+      <Link to="/page-5/">Next</Link>
     </nav>
   </Layout>
 )
 
-export default IndexPage
+export default PageFour

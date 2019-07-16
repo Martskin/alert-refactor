@@ -80,7 +80,7 @@ const jsx = `
   />
 `;
 
-const IndexPage = () => (
+const PageTwo = () => (
   <Layout>
     <h1>
       CSS with BEM class names
@@ -107,7 +107,7 @@ const IndexPage = () => (
         <h2>JSX</h2>
         <CodeSnippet code={jsx} language="jsx" />
 
-        <h2>Conditional class name</h2>
+        <h2>Conditional modifier class name</h2>
         <CodeSnippet code="className={classnames('alert', `alert--${type}`)}" language="jsx" />
 
         <h2>Markup with BEM class names</h2>
@@ -122,4 +122,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default PageTwo
