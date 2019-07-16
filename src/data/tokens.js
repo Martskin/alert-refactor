@@ -94,11 +94,12 @@ module.exports = {
     component: `1px ${base.color.neutral[60]} solid`,
   },
   shadow: {
-    default: `0 0px 8px ${base.color.neutral[90]}`
+    default:' 0 0px 8px #251f1f',
   },
   layout: {
     breakpoint: {
       md: 960,
+      xl: 1210,
     }
   },
   alert: {

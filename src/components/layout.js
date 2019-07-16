@@ -44,25 +44,36 @@ const Layout = ({ children }) => (
             main: {
               margin: `0 auto ${tokens.space.lg}px`,
               padding: `${tokens.space.lg}px ${tokens.space.md}px`,
-              maxWidth: tokens.layout.breakpoint.md,
+              maxWidth: tokens.layout.breakpoint.xl,
               textAlign: 'center',
             },
             h1: {
               fontSize: tokens.font.size.xxl,
               lineHeight: 1.1,
-              margin: `0 auto ${tokens.space.md}px`,
+              margin: `0 auto ${tokens.space.xxl}px`,
+              maxWidth: '900px',
+              "& + h2": {
+                margin: `-${tokens.space.xl}px 0 ${tokens.space.xxl}px`,
+              }
             },
             h2: {
+              color: tokens.color.text.secondary,
               fontSize: tokens.font.size.xl,
+              fontWeight: 'normal',
               lineHeight: 1.1,
               margin: `0 auto ${tokens.space.md}px`,
             },
             a: {
+              border: `1px solid ${tokens.color.text.interactive.default}`,
+              borderRadius: tokens.border.radius.default,
               color: tokens.color.text.interactive.default,
+              display: 'inline-block',
               fontSize: tokens.font.size.lg,
+              padding: tokens.space.xs,
               textDecoration: 'none',
               ':hover': {
-                textDecoration: 'underline',
+                color: tokens.color.text.onDark.default,
+                backgroundColor: tokens.color.text.interactive.default,
               }
             },
             '.grid': {
@@ -72,6 +83,14 @@ const Layout = ({ children }) => (
                 padding: `0 ${tokens.space.xs}px`,
                 width: `calc(50% - ${tokens.space.sm}px)`,
               } 
+            },
+            '.sticky': {
+              position: 'sticky',
+              top: tokens.space.xs,
+            },
+            nav: {
+              display: 'flex',
+              justifyContent: 'space-between',
             }
           })}
         >
