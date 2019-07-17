@@ -76,6 +76,11 @@ const styleBem = `
     width: 56px;
   }
 
+  .alert__icon::before {
+    display: block;
+    content: var(--tokens-alert-icon-info);
+  }
+
   /* icon modifiers */
   .alert--warning .alert__icon::before {
     content: var(--tokens-alert-icon-warning);
