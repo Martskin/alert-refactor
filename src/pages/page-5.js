@@ -41,7 +41,7 @@ const PageFive = () => (
 
         <AlertEmotion
           heading="Reduced file size"
-          message="The compiled CSS only includes the necessary declartions."
+          message="The compiled CSS only includes the necessary declarations."
           type="success"
         />
 
